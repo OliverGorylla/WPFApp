@@ -13,6 +13,7 @@
         <Grid MinWidth="116" MinHeight="100" ScrollViewer.VerticalScrollBarVisibility="Disabled" Grid.IsSharedSizeScope="True" Width="100" Height="100" >
             <Button x:Name="Start" Content="Start" Margin="1,10,10,70" Grid.RowSpan="2" Height="20" Width="105" MinWidth="105" MinHeight="20" MaxWidth="105" MaxHeight="20" Click="Start_Click"/>
             <Button x:Name="Optionen" Content="Optionen" Margin="1,35,10,45" Grid.RowSpan="2" Height="20" Width="105" MinWidth="105" MinHeight="20" MaxWidth="105" MaxHeight="20" Visibility="Hidden"/>
+            <!-- Optionen sind vorerst noch versteckt -->
             <Button x:Name="Beenden" Content="Beenden" Margin="1,70,10,10" Grid.RowSpan="2" Height="20" Width="105" MinWidth="105" MinHeight="20" MaxWidth="105" MaxHeight="20" Click="Beenden_Click"/>
         </Grid>
     </Viewbox>
